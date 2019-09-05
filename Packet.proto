@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message Message {
+message Packet {
   bytes protocol = 1;
   bytes origin = 2;
   bytes recipient = 3;
