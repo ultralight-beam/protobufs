@@ -1,8 +1,8 @@
 syntax = "proto3";
 
 message Message {
-  string protocol = 1;
-  string from = 2;
-  string to = 3;
+  bytes protocol = 1;
+  bytes origin = 2;
+  bytes recipient = 3;
   bytes body = 4; 
 }
