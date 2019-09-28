@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 message Packet {
-  bytes protocol = 1;
+  bytes service = 1;
   bytes origin = 2;
   bytes recipient = 3;
   bytes body = 4; 
