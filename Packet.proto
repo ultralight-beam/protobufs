@@ -1,8 +1,6 @@
 syntax = "proto3";
 
 message Packet {
-  bytes service = 1;
-  bytes origin = 2;
-  bytes recipient = 3;
-  bytes body = 4; 
+  bytes topic = 1;
+  bytes body = 2;
 }
